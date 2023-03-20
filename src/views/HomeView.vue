@@ -37,11 +37,11 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="egg">
-                <v-img src="" max-height="300"
+                <!-- <v-img src="" max-height="300"
                   >Lorem ipsum dolor <br/>
                   sit amet consectetur adipisicing elit.<br/>
                   Amet sequi corporis expedit.</v-img
-                >
+                > -->
               </div>
             </v-col>
             <v-col cols="12" sm="6">
@@ -65,15 +65,16 @@
                 magnam consectetur? Praesentium, nihil neque! Id laudantium nemo
                 in nobis numquam alias provident!
               </p>
+              <a href="https://drive.google.com/file/d/1KGkbwqwox3nW_WZ8Za7Xdygxp02RxLwL/view?usp=sharing">
               <v-btn tile dark color="yellow" class="mt-4"
                 >Check Out My Resume</v-btn
               >
+            </a>
             </v-col>
           </v-row>
         </div>
       </v-col>
       <div class="text-center mt-4">
-        <h2>What I Do</h2>
         <div style="width: 120px; margin: 0, auto">
           <v-slider
             v-model="slider2"
@@ -137,8 +138,10 @@
           <router-link to="/project">
           <v-btn class="mr-2" variant="tonal">My Projects</v-btn>
           </router-link>
-          <v-btn class="mr-2" variant="tonal">Qualifications</v-btn>
+          <router-link to="/about">
           <v-btn class="mr-2" variant="tonal">Know Me</v-btn>
+          </router-link>
+
         </div>
       </v-col>
       <v-col cols="12" class="imgHover">

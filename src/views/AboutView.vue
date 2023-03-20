@@ -7,7 +7,7 @@
           <v-col cols="12" sm="4">
             <v-card class="mw-auto" max-width="344" height="">
               <v-img src="img3.jpg" height="200px" cover></v-img>
-              <v-card-title>My hobbies</v-card-title>
+              <v-card-title>Who I Am</v-card-title>
               <v-card-subtitle> By AAE IdeaPro | 06 sep 2022 </v-card-subtitle>
               <v-card-text>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -20,7 +20,7 @@
           <v-col cols="12" sm="4">
             <v-card class="mw-auto" max-width="344" height="">
               <v-img src="img3.jpg" height="200px" cover></v-img>
-              <v-card-title>My hobbies</v-card-title>
+              <v-card-title>What I Do</v-card-title>
               <v-card-subtitle> By AAE IdeaPro | 06 sep 2022 </v-card-subtitle>
               <v-card-text>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
