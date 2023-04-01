@@ -42,15 +42,30 @@
             Fuga, alias iusto? Voluptatibus doloribus officia vitae maiores,
             perferendis accusantium delectus!</span
           >
-          <v-row class="mt-10">
-            <v-col cols="12" sm="6">
-                <v-text-field label="Name" persistent-hint variant="outlined"></v-text-field>
-            </v-col>
-            <v-col cols="12" sm="6">
-                <v-text-field label="Phone No" persistent-hint variant="outlined"></v-text-field>
-            </v-col>
-          </v-row>
-          <v-textarea label="Message" persistent-hint variant="outlined"></v-textarea>
+          <form id="form">
+            <v-row class="mt-10">
+              <v-col cols="12" sm="6">
+                <v-text-field
+                  label="Name"
+                  persistent-hint
+                  variant="outlined"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <v-text-field
+                  label="Phone No"
+                  persistent-hint
+                  variant="outlined"
+                ></v-text-field>
+              </v-col>
+            </v-row>
+          </form>
+
+          <v-textarea
+            label="Message"
+            persistent-hint
+            variant="outlined"
+          ></v-textarea>
           <v-btn color="#fbdf7e" class="mt-2">Submit Now</v-btn>
         </v-col>
       </v-row>
@@ -60,6 +75,14 @@
 
 <script>
 import NavBar from "@/components/NavBar.vue";
+
+// var form = document.getElementById('form')
+
+// form.addEventListener('click', function(e) {
+//   e.preventDefault() 
+
+// })
+
 
 export default {
   name: "ContactView",

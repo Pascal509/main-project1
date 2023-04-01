@@ -9,9 +9,12 @@
               <h1 class="text-grey">HELLO</h1>
               <h2 class="text-white">I'm Ezenagu Chinemerem</h2>
               <span lass="text-grey">Frontend Developer</span><br />
+              <router-link to="/contact">
               <v-btn tile dark class="text-yellow mt-8" variant="outlined"
                 >Contact Me</v-btn
               >
+              </router-link>
+
             </div>
           </v-col>
           <v-col cols="2">
